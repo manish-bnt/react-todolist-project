@@ -1,0 +1,19 @@
+.todo-container {
+  width: 85%;
+  position: relative;
+  transition: margin-left 0.4s ease;
+  width: 100%;
+}
+
+.todo-container.active {
+  margin-left: 15%;
+}
+
+.display-todo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  
+}
