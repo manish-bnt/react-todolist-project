@@ -28,7 +28,7 @@ export default function TodoCard({todoVal,todoId}) {
                   <i className="fa-solid fa-pen-to-square editIcon"></i>
                 </button>
                 <button
-                  onClick={() => deleteHandler(todoId)}
+                  onClick={() => deleteHandler(todoId, todoVal)}
                   className="btn-handler"
                 >
                   <i className="fa-solid fa-trash-can deleteIcon"></i>

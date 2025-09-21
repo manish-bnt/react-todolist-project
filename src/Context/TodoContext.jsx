@@ -43,10 +43,13 @@ export function TodoProvider({ children }) {
     setEditId(id);
   };
 
-  const deleteHandler = (id) => {
-    const updateTodo = todo.toSpliced(id, 1);
-    localStorage.setItem("userTodoList", JSON.stringify(updateTodo));
-    setTodo(updateTodo);
+  const deleteHandler = (id, todoVal) => {
+    let auth = confirm(`Are you sure to delete "${todoVal.title}"`)
+    if (auth) {
+      const updateTodo = todo.toSpliced(id, 1);
+      localStorage.setItem("userTodoList", JSON.stringify(updateTodo));
+      setTodo(updateTodo);
+    }
   };
   const addHandler = () => {
     setAdd((prev) => !prev);

@@ -3,7 +3,8 @@
   min-height: 100vh;
   max-height: auto;
   width: 210px;
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: #1E293B;
   position: fixed;
   top: 4rem;
   left: 0;

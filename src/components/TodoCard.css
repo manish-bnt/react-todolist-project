@@ -9,41 +9,47 @@
   justify-content: space-between;
   row-gap: 1rem;
   padding: 1rem;
+  /* background-color: #1E293B; */
+  background-color: hsl(217, 33%, 17%);
 }
 
 .title-desc {
   position: relative;
   padding: 1rem;
   background-color: #f9f9f9;
-  z-index: -1;
+  z-index: 0;
 }
 
 .title-desc h2 {
   font-size: clamp(1rem, 1vw + .9rem, 1.3rem);
-  color: rgba(0, 0, 0, 0.85);
+  /* color: rgba(0, 0, 0, 0.85); */
   margin-bottom: 1rem;
   font-weight: 500;
   word-wrap: break-word;
   text-align: justify;
-
+  /* color: #Fff; */
+  
 }
 
 .title-desc p {
   font-size: clamp(0.5rem, 1vw + .6rem, 1.1rem);
   color: rgba(0, 0, 0, 0.95);
   word-wrap: break-word;
+  word-spacing: 1px;
   text-align: justify;
+  /* color: #Fff; */
 }
 
 .favourite {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 25px;
+  right:25px;
   cursor: pointer;
 }
 
 .fav-star {
   color: #959799;
+  /* color: #8cb79c; */
 }
 
 .cta-container {
@@ -61,11 +67,13 @@
 }
 
 .editIcon {
-  color: #6c757d;
+  /* color: #6c757d; */
+  color: #dee4ea;
 }
 
 .deleteIcon {
-  color: #ff4444;
+  /* color: #ff4444; */
+  color: #ee4a4a;
 }
 
 @media screen and (min-width:768px) {
