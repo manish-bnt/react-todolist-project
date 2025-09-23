@@ -7,7 +7,7 @@
   background-color: rgb(117, 123, 240);
   border-radius: 50%;
   z-index: 99999;
-  padding: 0.5rem;
+  padding: 0.5rem  0.7rem;
   cursor: pointer;
 }
 
@@ -19,6 +19,6 @@
 
 @media screen and (min-width: 768px) {
   .add-button-wrap {
-    padding: 0.8rem;
+    padding: 0.8rem 1rem;
   }
 }
