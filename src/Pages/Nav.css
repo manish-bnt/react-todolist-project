@@ -31,7 +31,6 @@
 
 .link-style {
   text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: clamp(0.5rem, 1vw + 0.8rem, 1.3rem);
   color: rgba(255, 255, 255, 1);
   padding: 0.8rem;
@@ -39,7 +38,6 @@
 
 .navigation-add {
   text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: clamp(0.5rem, 1vw + 0.8rem, 1.3rem);
   color: rgba(255, 255, 255, 1);
   padding: 1rem;
